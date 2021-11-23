@@ -1,0 +1,115 @@
+:root {
+    --hightlight-color :#ff7315;
+}
+.button {
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    background-color: white;
+    outline: none;
+    border-radius: 26px;
+
+}
+.margin--button {
+    margin-top: 30px;
+}
+.button:hover {
+    background-color: var(--hightlight-color);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.button--black {
+    background: #000;
+    color: white;
+}
+.grayColor {
+    color: #707b91;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.padding-top {
+    padding-top: 3em ;
+}
+.padding-bottom {
+    padding-bottom: 3em ;
+}
+.margin-bottom {
+    margin-bottom: 24px;
+}
+.margin-top {
+    margin-top: 16px;
+}
+.font-size__h3 {
+    font-size: 36px;
+    line-height: 1.4    ;
+}
+.backgroudGray {
+    background-color: #f4f4f4;
+}
+.padding-left {
+    padding-left: 3em;
+}
+.padding-right {
+    padding-right: 3em;
+}
+.margin-auto {
+    margin: 0 auto;
+}
+.margin-left {
+    margin-left: 5em;
+}
+.margin-right {
+    margin-right: 5em;
+}
+.padding-left-1em {
+    padding-left: 1em;
+}
+.padding-right-1em {
+    padding-right: 1em;
+}
+.p--style {
+    line-height: 1.5;
+    font-size: 15px;
+    color: #d4d4d4;
+}
+.footer--color {
+    color:#a09292;
+}
+.offer a {
+    color: #333;
+}
+.bg-banner4 {
+    background: url(../img/banner4.jpg) center no-repeat;   
+}
+.bg-banner4__item {
+    color: #Fff;
+}
+body .hightlight-hover:hover {
+    color: var(--hightlight-color);
+    transition: all .3s;
+    cursor: pointer;
+}
+.bg-fff {
+    background-color: #fff;
+}
+body .bg-fff:hover {
+    background-color: #f8d2e3;
+    transition: all .2s;
+}
+.team-item img {
+    position: relative;
+}
+.team-item .bg-white {
+    position: absolute;
+    bottom: 1.5em;
+    right: 2em;
+    left: 2em;
+}
+.bg-white a {
+    color: #333;
+}
+.bg-white a:hover {
+    color: var(--hightlight-color);
+    transition: .3s;
+}
