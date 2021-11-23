@@ -1,6 +1,9 @@
 :root {
     --hightlight-color :#ff7315;
 }
+body {
+    overflow-x: hidden;
+}
 .button {
     padding: 12px 18px;
     font-size: 16px;

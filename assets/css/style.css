@@ -1279,6 +1279,13 @@ a:hover {
 }
 .block-15__right {
     width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+.ban_do{
+    position:static !important;
+    overflow: unset !important;
+    height: 12rem;
 }
 .block-15__right img {
     width: 100%;
@@ -1325,6 +1332,9 @@ a:hover {
 /* TABLE */
 
 @media (min-width:724px) and (max-width:1023px) {
+    .bg-img {
+        background-position-x: -411px;
+    }
     .block-16 button  {
         width: 40%;
     }
@@ -1337,6 +1347,7 @@ a:hover {
     .block-15__left,
     .block-15__right {
         width: 100%;
+        position: relative;
     }
     .block-14__item {
         width: 50%;
@@ -1495,6 +1506,9 @@ a:hover {
 /* SMART PHONE */
 
 @media (max-width: 723px) {
+    .bg-img {
+        background-position-x: -349px;
+    }
     .video {
         width: 90%;
         height: 30%;
