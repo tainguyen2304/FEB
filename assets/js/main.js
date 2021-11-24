@@ -105,3 +105,16 @@ const closeVideo = document.getElementById('closeVideo');
     closeVideo.onclick = function () {
         closeVideo.parentElement.classList.remove('video-show')
     }
+// move top
+jQuery(document).ready(function($){ 	
+    if($(".move-top").length > 0){
+        $(window).scroll(function () {
+            var e = $(window).scrollTop();
+            if (e > 300) {
+                $(".move-top").show()
+            } else {
+                $(".move-top").hide()
+            }
+        });
+    }		
+});

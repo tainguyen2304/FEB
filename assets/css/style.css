@@ -114,15 +114,6 @@ html {
     width: 70%;
     height: 36em;
 }
-.caurosel::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 100vh;
-    background-color: rgba(12, 0, 12, 0.5);
-}
 .text-left3 {
     font-size: 52px;
     font-weight: inherit;

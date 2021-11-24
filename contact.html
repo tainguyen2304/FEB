@@ -246,5 +246,19 @@
 
     });
     </script>
+     <script>
+        jQuery(document).ready(function($){ 	
+            if($(".move-top").length > 0){
+                $(window).scroll(function () {
+                    var e = $(window).scrollTop();
+                    if (e > 300) {
+                        $(".move-top").show()
+                    } else {
+                        $(".move-top").hide()
+                    }
+                });
+            }		
+        });
+    </script>
 </body>
 </html>

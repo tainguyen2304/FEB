@@ -116,3 +116,7 @@ body .bg-fff:hover {
     color: var(--hightlight-color);
     transition: .3s;
 }
+.move-top {
+    display: none;
+    z-index: 999 !important;
+}

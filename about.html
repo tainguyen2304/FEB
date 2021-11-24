@@ -10,6 +10,21 @@
     <link rel="stylesheet" href="./assets/css/form.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script>
+        jQuery(document).ready(function($){ 	
+            if($(".move-top").length > 0){
+                $(window).scroll(function () {
+                    var e = $(window).scrollTop();
+                    if (e > 300) {
+                        $(".move-top").show()
+                    } else {
+                        $(".move-top").hide()
+                    }
+                });
+            }		
+        });
+    </script>
 </head>
 <body>
     <section class=" bg-header">
